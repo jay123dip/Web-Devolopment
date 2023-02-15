@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 350px;
+    margin: 50px auto;
+    background-color: #33c2d8;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    /* background: transparent; */
+}
+
+h1 {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 1.2em;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e7e1e1;
+}
+
+button {
+    width: 92%;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1.2rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(91, 71, 184);
+}
+
+button:hover {
+    background: rgba(54, 66, 196, 0.877);
+}
+
+input:focus {
+    border: 1px solid rgb(167, 128, 128);
+}
+
+.terms {
+    margin-top: 0.2rem;
+}
+
+.terms input {
+    height: 1em;
+    width: 1em;
+}
+
+.terms a {
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.member {
+    margin: 1em;
+}
+
+.member a {
+    text-decoration: none;
+}
+
+.member a:hover {
+    text-decoration: underline;
+}
